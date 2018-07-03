@@ -2,14 +2,14 @@
 
 # Tabla de contenidos
 
-- [Lineamientos](#heading)
-- [Definición](#heading-1)
-  * [Métodos soportados](#sub-heading-1-1)
-  * [Problemas comunes](#sub-heading-1-2)
-  * [Estado de URL](#sub-heading-1-3)
-  * [Estructura de URL](#sub-heading-1-4)
-  * [Ambiente y versionamiento](#sub-heading-1-5)
-- [Respuestas](#heading-2)
+- [Lineamientos](#lineamientos)
+- [Definición](#definición)
+  * [Métodos Soportados](#métodos-soportados)
+  * [Problemas Comunes](#problemas-comunes)
+  * [Estado de URL](#estado-de-url)
+  * [Estructura de URL](#estructura-de-url)
+  * [Ambiente y Versionamiento](#ambiente-y-versionamiento)
+- [Respuestas](#respuestas)
   * [Objetos](#sub-heading-2-1)
     + [Elemento u objeto](#sub-sub-heading-2-1)
     + [Colección de objetos](#sub-sub-heading-2-1)
@@ -27,6 +27,7 @@
 - [Ejemplos](#heading-6)
 
 
+<!-- toc -->
 
 ## Lineamientos
 
@@ -293,7 +294,7 @@ Total de registros: Se recomienda tener la cuenta del total de registros en otra
 
 ## Manejo de errores
 
-En progreso
+> En progreso
 
 Todo servicio debe proveer una respuesta de error de acuerdo a los estados HTTP a partir de 4xx, indicando que la solicitud no puede ser cumplir. Si no existe un código de error apropiado de acuerdo a la solicitud, se debe devolver siempre un código 400 “Bad request”, y una respuesta donde el cliente tenga una guía de porque sucede el error. Un servicio debe incluir suficiente detalle para que un desarrollador y el cliente tengan conocimiento de que sucedió y cómo puede resolver el problema.
 
